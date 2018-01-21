@@ -1,6 +1,4 @@
 import {Bot} from "./bot/Bot";
+import * as Config from "config";
 
-
-const bot = new Bot();
-
-console.log("ok");
+const bot = new Bot(Config.get("discord"));
