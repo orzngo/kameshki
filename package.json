@@ -1,0 +1,24 @@
+{
+  "name": "kameshki",
+  "version": "0.1.0",
+  "description": "my simple fotune teller",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "clean": "rimraf ./build/*",
+    "build": "npm run clean & gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/config": "0.0.33",
+    "config": "^1.29.2",
+    "discord.js": "^11.3.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.0-alpha.1",
+    "rimraf": "^2.6.2",
+    "run-sequence": "^2.2.1",
+    "typescript": "^2.6.2"
+  }
+}
