@@ -1,1 +1,1 @@
-bot: npm run build & npm start
+bot: npm start
