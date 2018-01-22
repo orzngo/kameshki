@@ -21,7 +21,7 @@ export class Bot {
                 message.reply("pong");
             } else if (message.content === "!kame") {
                 const result = this.teller.forcast(2);
-                message.reply(`erangel: [ ${result.erangel[0].name} ] / [ ${result.erangel[1].name} ] \nmiramar: [ ${result.miramar[0].name} ] / [ ${result.miramar[1].name} ]`);
+                message.reply(`\nerangel: [ ${result.erangel[0].name} ] / [ ${result.erangel[1].name} ] \nmiramar: [ ${result.miramar[0].name} ] / [ ${result.miramar[1].name} ]`);
             }
         });
 
