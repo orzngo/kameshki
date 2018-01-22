@@ -2,7 +2,6 @@
   "name": "kameshki",
   "version": "0.1.0",
   "description": "my simple fotune teller",
-  "main": "build/index.js",
   "scripts": {
     "start": "node ./build/index.js",
     "clean": "rimraf ./build/*",
